@@ -1,6 +1,4 @@
-.\src\porti.vhd
-.\src\circuit_paritate.vhd
-.\src\circuit_paritate_secvential.vhd
-.\src\test.vhd
-.\src\shift.vhd
-.\src\shift_test.vhd
+.\src\shift_register.vhd
+.\src\clk_gen.vhd
+.\src\TestBench\shift_register_TB.vhd
+.\src\TestBench\shift_register_TB_tim_cfg.vhd

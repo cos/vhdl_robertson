@@ -1,4 +1,12 @@
 [Files List]
 C:\Program Files (x86)\Aldec\Active-HDL 8.1\Vlib\Std/src/standard.vhd=S
-c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 8.1\Vlib\Std/src/textio.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 8.1\Vlib\IEEE/src/std_logic_1164.vhdl=S
+C:\Program Files (x86)\Aldec\Active-HDL 8.1\Vlib\IEEE/src/std_logic_1164-body.vhdl=S
+C:\Program Files (x86)\Aldec\Active-HDL 8.1\Vlib\IEEE/src/arith_p.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 8.1\Vlib\IEEE/src/arith_b.vhd=S
 c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift_test.vhd=S
+c:\Users\Cosmin\Projects\booth\booth_multiplication/src/clk_gen.vhd=S
+c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift.vhd=S
+c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift_register.vhd=S
+c:\Users\Cosmin\Projects\booth\booth_multiplication/src/testbench/shift_register_tb.vhd=S

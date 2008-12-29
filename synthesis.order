@@ -1,7 +1,5 @@
 i<>.\src\test1.vhd
-i<>.\src\porti.vhd
-i<>.\src\circuit_paritate.vhd
-i<>.\src\circuit_paritate_secvential.vhd
-i<>.\src\test.vhd
 i<>.\src\deplasare.vhd
-i<>.\src\shift_test.vhd
+i<>.\src\clk_gen.vhd
+i<>.\src\TestBench\shift_register_TB.vhd
+i<>.\src\TestBench\shift_register_TB_tim_cfg.vhd

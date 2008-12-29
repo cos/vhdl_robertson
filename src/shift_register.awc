@@ -1,0 +1,92 @@
+<config>
+    <version>
+        2.0
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="EF5D6349 58353400">wave.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+                AAAAEA3AAw8AABAbDQMBBwEIAAAQEQAA
+|
+        </signallist>
+    </signallists>
+    <propertybases>
+        <propertybase id="0">
+            <propclass name="radix">
+            </propclass>
+            <propclass name="mode">
+                <property first="268435457" last="268435458">
+                0
+                </property>
+                <property first="268435462" last="268435463">
+                0
+                </property>
+            </propclass>
+            <propclass name="notation">
+                <property first="268435457" last="268435457">
+                2
+                </property>
+                <property first="268435458" last="268435458">
+                1
+                </property>
+                <property first="268435462" last="268435463">
+                1
+                </property>
+                <property first="268435469" last="268435469">
+                2
+                </property>
+            </propclass>
+            <propclass name="reverse">
+            </propclass>
+            <propclass name="bold">
+            </propclass>
+            <propclass name="row_height">
+            </propclass>
+            <propclass name="color">
+            </propclass>
+            <propclass name="compared">
+            </propclass>
+            <propclass name="analog_bounds">
+                <property first="268435469" last="268435469">
+                [-1.000000,1.000000]
+                </property>
+            </propclass>
+        </propertybase>
+    </propertybases>
+    <prefbases>
+        <prefbase id="0" >
+            <pref name="End Time" value="17963791" />
+            <pref name="Start Time" value="0" />
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="10000000" label="Cursor 1" />
+        </cursors>
+    </cursorbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0"/>
+    </views>
+    <virtualsources>
+        <virtualnamedrows>
+        </virtualnamedrows>
+        <virtualbuses>
+        </virtualbuses>
+        <virtualalias>
+        </virtualalias>
+        <virtualbusalias>
+        </virtualbusalias>
+        <virtualanalogalias>
+        </virtualanalogalias>
+        <virtualanalogbusalias>
+        </virtualanalogbusalias>
+        </virtualsources>
+</config>

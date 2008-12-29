@@ -43,25 +43,28 @@ HierarchyInformation=poarta_xor|behave|0
 ShowHide=ShowTopLevel
 Selected=
 
+[Groups]
+TestBench=1
+
 [Files]
-/porti.vhd=-1
-/circuit_paritate.vhd=-1
-/circuit_paritate_secvential.vhd=-1
-/test.vhd=-1
-/shift.vhd=-1
-/shift_test.vhd=-1
+/shift_register.vhd=-1
 /wave.asdb=-1
-/signals.do=-1
 /cerinte.txt=-1
+/clk_gen.vhd=-1
+/shift_register.asdb=-1
+/shift_register.awc=-1
+TestBench/shift_register_TB.vhd=-1
+TestBench/shift_register_TB_tim_cfg.vhd=-1
+TestBench/shift_register_TB_runtest.do=-1
 
 [Files.Data]
-.\src\porti.vhd=VHDL Source Code
-.\src\circuit_paritate.vhd=VHDL Source Code
-.\src\circuit_paritate_secvential.vhd=VHDL Source Code
-.\src\test.vhd=VHDL Source Code
-.\src\shift.vhd=VHDL Source Code
-.\src\shift_test.vhd=VHDL Source Code
+.\src\shift_register.vhd=VHDL Source Code
 .\src\wave.asdb=Accelerated Waveform File
-.\src\signals.do=Macro
 .\src\cerinte.txt=Text File
+.\src\clk_gen.vhd=VHDL Source Code
+.\src\shift_register.asdb=Accelerated Waveform File
+.\src\shift_register.awc=Accelerated Waveform Configuration
+.\src\TestBench\shift_register_TB.vhd=VHDL Test Bench
+.\src\TestBench\shift_register_TB_tim_cfg.vhd=VHDL Test Bench
+.\src\TestBench\shift_register_TB_runtest.do=Macro
 

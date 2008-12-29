@@ -1,16 +1,25 @@
-elbread.dll ver. 1.0.5.375 Mon Dec 29 03:55:31 2008
+elbread.dll ver. 1.0.5.375 Mon Dec 29 04:52:35 2008
 
 
--------------------------------------------------------------
-Entity          | Architecture         | Library           
--------------------------------------------------------------
-shift_test      | shift_test_arch      | booth_multiplication
-clk_gen         | behave_clk_gen       | booth_multiplication
-shift_register  | schift_register_arch | booth_multiplication
--------------------------------------------------------------
+----------------------------------------------------------------
+Entity             | Architecture         | Library           
+----------------------------------------------------------------
+shift_register_tb  | tb_architecture      | booth_multiplication
+shift_register     | schift_register_arch | booth_multiplication
+clk_gen            | behave_clk_gen       | booth_multiplication
+----------------------------------------------------------------
 
--------------------
-Package   | Library
--------------------
-standard  | std
--------------------
+--------------------------
+Package          | Library
+--------------------------
+standard         | std
+textio           | std
+std_logic_1164   | ieee
+std_logic_arith  | ieee
+--------------------------
+
+----------------------------------------------------
+Configuration                 | Library           
+----------------------------------------------------
+testbench_for_shift_register  | booth_multiplication
+----------------------------------------------------

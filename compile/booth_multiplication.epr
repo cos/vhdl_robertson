@@ -1,7 +1,2 @@
-"c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd" VHDL booth_multiplication 1 0 1785688688
-"c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd" VHDL booth_multiplication 2 0 1819571804
-"c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd" VHDL booth_multiplication 1 0 1278110838
-"c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd" VHDL booth_multiplication 1 0 1278110838
-"c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd" VHDL booth_multiplication 1 0 1685345116
-"c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd" VHDL booth_multiplication 1 0 1685345116
+"c:\Users\Cosmin\Projects\booth\booth_multiplication\src\TestBench\shift_register_TB.vhd" VHDL booth_multiplication 1 0 1785688688
 . . 0 0 0
