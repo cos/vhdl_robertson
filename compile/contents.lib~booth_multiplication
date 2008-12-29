@@ -1,4 +1,4 @@
-5600
+6562
 ~E 1 "./src/shift_test.vhd" 1 clk_gen
 ~A 1 "./src/shift_test.vhd" 6 behave_clk_gen
 ~C 1 "./src/test.vhd" 31 cfg_test

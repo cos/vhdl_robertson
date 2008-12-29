@@ -21,6 +21,13 @@ begin
 				reg := (others => '0');
 			end if;			
 			
+			if shift = '1' then
+				for i in 0 to n-2 loop
+					reg(i) := reg(i+1);
+				end loop;
+				reg(n-1) := s_in;
+			end if;			
+			
 			p_out <= reg;
 			-- everything here
 		end if;								

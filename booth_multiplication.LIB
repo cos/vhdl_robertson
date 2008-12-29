@@ -1,44 +1,44 @@
-timestamp=1230513229956
+timestamp=1230515728026
 
 [cfg_circ_paritate]
-E=1*1443692
+E=1*1720644
 I=0*2891
-M=2|0|v147|1230513229659|./src/circuit_paritate.vhd|0*2504*0xbf0b0336ad1a7ffbd421ceaa4afd84700dd9f6e0|0*2784*0x7bd7e13dc0415552f89596087806a8cf
+M=2|0|v147|1230515727720|./src/circuit_paritate.vhd|0*2504*0xbf0b0336ad1a7ffbd421ceaa4afd84700dd9f6e0|0*2784*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/circuit_paritate.vhd|27
 
 [cfg_test]
-E=1*1449286
+E=1*1726238
 I=0*5524
-M=2|0|v147|1230513229801|./src/test.vhd|0*5250*0x199a260aca047a12dc9951058400f8f5150fd653|0*5447*0x7bd7e13dc0415552f89596087806a8cf
+M=2|0|v147|1230515727857|./src/test.vhd|0*5250*0x199a260aca047a12dc9951058400f8f5150fd653|0*5447*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/test.vhd|31
 
 [circ_paritate]
-A/comport_concurent1=21|./src/circuit_paritate.vhd|37|1*1444279
-A/comport_concurent2=21|./src/circuit_paritate.vhd|46|1*1445704
-A/comport_secvential=21|./src/circuit_paritate_secvential.vhd|8|1*1446625
-A/struct=21|./src/circuit_paritate.vhd|6|1*1440948
-B/comport_concurent1=3*800663
-B/comport_concurent2=3*802361
-B/comport_secvential=3*802882
+A/comport_concurent1=21|./src/circuit_paritate.vhd|37|1*1721231
+A/comport_concurent2=21|./src/circuit_paritate.vhd|46|1*1722656
+A/comport_secvential=21|./src/circuit_paritate_secvential.vhd|8|1*1723577
+A/struct=21|./src/circuit_paritate.vhd|6|1*1717900
+B/comport_concurent1=3*973186
+B/comport_concurent2=3*974884
+B/comport_secvential=3*975405
 I=0*1779
 I/comport_concurent1=0*3314
 I/comport_concurent2=0*3695
 I/comport_secvential=0*4228
 I/struct=0*2435
 M=11|0|v147|1230502866788|./src/circuit_paritate.vhd|0*1518*0x7ece0efc79474b43e2ccc5712acf54ce5470fcd1|0*1692*0x7bd7e13dc0415552f89596087806a8cf
-M/comport_concurent1=21|0|v147|1230513229678|./src/circuit_paritate.vhd|0*2937*0x0f7418081aae9488b6466feeacb413dd6752b751|0*3205*0x7bd7e13dc0415552f89596087806a8cf
-M/comport_concurent2=21|0|v147|1230513229682|./src/circuit_paritate.vhd|0*3375*0x557a867e315dccd673e71a27c1bd24621b8bb3e9|0*3586*0x7bd7e13dc0415552f89596087806a8cf
-M/comport_secvential=21|0|v147|1230513229745|./src/circuit_paritate_secvential.vhd|0*3756*0x3206f0cc6006c34ddfff0a737e012b35337e6ae2|0*4108*0x7bd7e13dc0415552f89596087806a8cf
-M/struct=21|0|v147|1230513229656|./src/circuit_paritate.vhd|0*1821*0xf10d0cb5b8f96c0f85812f73d9542480bc50ec82|0*2338*0x7bd7e13dc0415552f89596087806a8cf
+M/comport_concurent1=21|0|v147|1230515727736|./src/circuit_paritate.vhd|0*2937*0x0f7418081aae9488b6466feeacb413dd6752b751|0*3205*0x7bd7e13dc0415552f89596087806a8cf
+M/comport_concurent2=21|0|v147|1230515727740|./src/circuit_paritate.vhd|0*3375*0x557a867e315dccd673e71a27c1bd24621b8bb3e9|0*3586*0x7bd7e13dc0415552f89596087806a8cf
+M/comport_secvential=21|0|v147|1230515727804|./src/circuit_paritate_secvential.vhd|0*3756*0x3206f0cc6006c34ddfff0a737e012b35337e6ae2|0*4108*0x7bd7e13dc0415552f89596087806a8cf
+M/struct=21|0|v147|1230515727717|./src/circuit_paritate.vhd|0*1821*0xf10d0cb5b8f96c0f85812f73d9542480bc50ec82|0*2338*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/circuit_paritate.vhd|1
 
 [clk_gen]
-A/behave_clk_gen=21|./src/shift_test.vhd|6|1*1451447
-B/behave_clk_gen=3*807280
+A/behave_clk_gen=21|./src/shift_test.vhd|6|1*1728405
+B/behave_clk_gen=3*980871
 I=0*16751
 I/behave_clk_gen=0*17094
 M=11|0|v147|1230507793619|./src/shift_test.vhd|0*16454*0xaa9a28c0032992be9c0675862e7a8742fd68df82|0*16676*0x7bd7e13dc0415552f89596087806a8cf
-M/behave_clk_gen=21|0|v147|1230513229894|./src/shift_test.vhd|0*16787*0x85174507313c6dcdcd5cd916f9c42ea0bdd65d8b|0*17001*0x7bd7e13dc0415552f89596087806a8cf
+M/behave_clk_gen=21|0|v147|1230515727952|./src/shift_test.vhd|0*16787*0x85174507313c6dcdcd5cd916f9c42ea0bdd65d8b|0*17001*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/shift_test.vhd|1
 
 [config_shift_test]
@@ -48,58 +48,58 @@ M=2|0|v147|1230509149675|./src/shift_test.vhd|0*20300*0xd059697b17c0d491df1fb80d
 R=./src/shift_test.vhd|43
 
 [inversor]
-A/behave=21|./src/porti.vhd|21|1*1440119
-B/behave=3*800130
+A/behave=21|./src/porti.vhd|21|1*1717071
+B/behave=3*972653
 I=0*1075
 I/behave=0*7454
 M=11|0|v147|1230501682329|./src/porti.vhd|0*845*0xe0eacb890f832014c22eda37f3cd9a2376e2278b|0*1004*0x7bd7e13dc0415552f89596087806a8cf
-M/behave=21|0|v147|1230513229586|./src/porti.vhd|0*7232*0x7a7a9b94610429c68d8b83ef9f70e4ce01c08eec|0*7373*0x7bd7e13dc0415552f89596087806a8cf
+M/behave=21|0|v147|1230515727615|./src/porti.vhd|0*7232*0x7a7a9b94610429c68d8b83ef9f70e4ce01c08eec|0*7373*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/porti.vhd|15
 
 [poarta_xor]
-A/behave=21|./src/porti.vhd|7|1*1439221
-B/behave=3*799561
+A/behave=21|./src/porti.vhd|7|1*1716173
+B/behave=3*972084
 I=0*6914
 I/behave=0*7186
 M=11|0|v147|1230503357260|./src/porti.vhd|0*6670*0x8ff66f9f1411b39b072972d06ff003017b5c2468|0*6841*0x7bd7e13dc0415552f89596087806a8cf
-M/behave=21|0|v147|1230513229580|./src/porti.vhd|0*6953*0xca1017c47cd065daa0fade8788c5eb4b5de88029|0*7103*0x7bd7e13dc0415552f89596087806a8cf
+M/behave=21|0|v147|1230515727609|./src/porti.vhd|0*6953*0xca1017c47cd065daa0fade8788c5eb4b5de88029|0*7103*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/porti.vhd|1
 
 [shift_register]
-A/schift_register_arch=21|./src/shift.vhd|9|1*1449643
-B/schift_register_arch=3*805580
+A/schift_register_arch=21|./src/shift.vhd|9|1*1726595
+B/schift_register_arch=3*978103
 I=0*8093
-I/schift_register_arch=0*33235
+I/schift_register_arch=0*53840
 M=11|0|v147|1230505916084|./src/shift.vhd|0*7759*0x2aa8f01cfea449e211a97d74cd5e2f9ca523f2fc|0*8016*0x7bd7e13dc0415552f89596087806a8cf
-M/schift_register_arch=21|0|v147|1230513229846|./src/shift.vhd|0*32822*0x8b8fbf947161ff74adf117d527263a3bade2dd96|0*33134*0x7bd7e13dc0415552f89596087806a8cf
+M/schift_register_arch=21|0|v147|1230515727903|./src/shift.vhd|0*53336*0x1332d5b2165af699bf6d0393f2751b2d87c17ef0|0*53739*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/shift.vhd|1
 
 [shift_test]
-A/shift_test_arch=21|./src/shift_test.vhd|20|1*1452587
-B/shift_test_arch=3*808269
+A/shift_test_arch=21|./src/shift_test.vhd|20|1*1729545
+B/shift_test_arch=3*981860
 I=0*8786
-I/shift_test_arch=0*35556
+I/shift_test_arch=0*55527
 M=11|0|v147|1230506042688|./src/shift_test.vhd|0*8605*0x4d810b2ac7de3c71d4602d852f2a270c73f0346f|0*8708*0x7bd7e13dc0415552f89596087806a8cf
-M/shift_test_arch=21|0|v147|1230513229897|./src/shift_test.vhd|0*34512*0x23f94d3df1b6a5036cf89123ef4b350d5c30b92e|0*35459*0x7bd7e13dc0415552f89596087806a8cf
+M/shift_test_arch=21|0|v147|1230515727955|./src/shift_test.vhd|0*53904*0xd68d22bdcf42d7cdd67dbde7aedd9f51610a6c94|0*55430*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/shift_test.vhd|1
 
 [test]
-A/test=21|./src/test.vhd|12|1*1447719
-B/test=3*804256
+A/test=21|./src/test.vhd|12|1*1724671
+B/test=3*976779
 I=0*4493
 I/test=0*5151
 M=11|0|v147|1230502951618|./src/test.vhd|0*4342*0xd81a0280f610423569d982ac03d76f520eee8a78|0*4427*0x7bd7e13dc0415552f89596087806a8cf
-M/test=21|0|v147|1230513229798|./src/test.vhd|0*4526*0x41e81fa6f3e1157f92b83d899f92a5036f897da5|0*5077*0x7bd7e13dc0415552f89596087806a8cf
+M/test=21|0|v147|1230515727854|./src/test.vhd|0*4526*0x41e81fa6f3e1157f92b83d899f92a5036f897da5|0*5077*0x7bd7e13dc0415552f89596087806a8cf
 R=./src/test.vhd|9
 
 [~A]
-ModifyID=5600
+ModifyID=6562
 Version=73
 
 [~MFT]
-0=322|0booth_multiplication.mgf|35556|26217
-1=2358|1booth_multiplication.mgf|1452587|1438575
-3=1646|3booth_multiplication.mgf|808269|799561
+0=412|0booth_multiplication.mgf|55527|45518
+1=2748|1booth_multiplication.mgf|1729545|1715527
+3=1940|3booth_multiplication.mgf|981860|972084
 
 [~U]
 cfg_circ_paritate=2||

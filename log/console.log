@@ -5839,4 +5839,1328 @@ acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_parit
 # Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
 # Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
 # Compile Configuration "cfg_circ_paritate"
-# Compile Architecture "comport_concurent1" of E
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:13, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.4 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:21, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# EXECUTION:: ERROR  : Load doesn't work
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  TOP instance,  Process: line__43.
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:22, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at delta: 0 at time 0 ps.
+# Stopped at breakpoint in file c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift_test.vhd at line 48.
+step
+step
+step
+step
+step
+step -out
+step -out
+step -out
+step
+step
+step
+step
+step
+step
+step
+step
+step
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:24, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at delta: 0 at time 0 ps.
+# Stopped at breakpoint in file c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift_test.vhd at line 45.
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+# Stopped at breakpoint in file c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift_test.vhd at line 45.
+step
+step
+step
+# EXECUTION:: ERROR  : Load doesn't work
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  TOP instance,  Process: line__43.
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+# Stopped at breakpoint in file c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift_test.vhd at line 45.
+step
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:25, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:28, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+#  Simulation has been stopped
+acom -work booth_multiplication -2002  $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -advdataflow  shift_test shift_test_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:29, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at delta: 0 at time 0 ps.
+# Stopped at breakpoint in file c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift_test.vhd at line 45.
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.4 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:30, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at delta: 0 at time 0 ps.
+# Stopped at breakpoint in file c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift_test.vhd at line 45.
+run 50ns
+# EXECUTION:: ERROR  : Load doesn't work
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  TOP instance,  Process: line__43.
+# KERNEL: stopped at time: 50 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:30, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at delta: 0 at time 0 ps.
+# Stopped at breakpoint in file c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift_test.vhd at line 45.
+step -over
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:31, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.4 [s]
+run 50ns
+# KERNEL: stopped at delta: 0 at time 0 ps.
+# Stopped at breakpoint in file c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift_test.vhd at line 45.
+step -over
+run 50ns
+# EXECUTION:: ERROR  : Load doesn't work
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  TOP instance,  Process: line__43.
+# KERNEL: stopped at time: 50 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:31, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at delta: 0 at time 0 ps.
+# Stopped at breakpoint in file c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift_test.vhd at line 45.
+step -over
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:31, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:32, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+#  Simulation has been stopped
+acom -work booth_multiplication -2002  $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -advdataflow  shift_test shift_test_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1595 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:32, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at delta: 0 at time 0 ps.
+# Stopped at breakpoint in file c:\Users\Cosmin\Projects\booth\booth_multiplication/src/shift_test.vhd at line 45.
+run 50ns
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Error: COMP96_0078: shift_test.vhd : (47, 4): Unknown identifier "reset".
+# Error: COMP96_0133: shift_test.vhd : (47, 4): Cannot find object declaration.
+# Error: COMP96_0078: shift_test.vhd : (53, 5): Unknown identifier "reset".
+# Error: COMP96_0133: shift_test.vhd : (53, 5): Cannot find object declaration.
+# Error: COMP96_0118: shift_test.vhd : (62, 21): Keyword "others" is not allowed in unconstrained array aggregate.
+# Compile failure 5 Errors 2 Warnings  Analysis time :  0.4 [s]
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Error: COMP96_0118: shift_test.vhd : (63, 21): Keyword "others" is not allowed in unconstrained array aggregate.
+# Compile failure 1 Errors 2 Warnings  Analysis time :  0.3 [s]
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.4 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:34, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# EXECUTION:: ERROR  : Load doesn't work
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  TOP instance,  Process: line__44.
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+run 50ns
+# KERNEL: stopped at time: 150 ns
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.3 [s]
+run 50ns
+# KERNEL: stopped at time: 200 ns
+run 50ns
+# KERNEL: stopped at time: 250 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:35, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# EXECUTION:: ERROR  : Load doesn't work
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  TOP instance,  Process: line__44.
+# KERNEL: stopped at time: 50 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:35, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+# onerror { resume }
+transcript off
+# 6 signal(s) traced.
+run 50ns
+# EXECUTION:: ERROR  : Load doesn't work
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  TOP instance,  Process: line__44.
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+run 50ns
+# KERNEL: stopped at time: 150 ns
+run 50ns
+# KERNEL: stopped at time: 200 ns
+run 50ns
+# KERNEL: stopped at time: 250 ns
+run 50ns
+# EXECUTION:: ERROR  : Reset doesn't work
+# EXECUTION:: Time: 280 ns,  Iteration: 0,  TOP instance,  Process: line__44.
+# KERNEL: stopped at time: 300 ns
+run 50ns
+# KERNEL: stopped at time: 350 ns
+run 50ns
+# KERNEL: stopped at time: 400 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:38, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+#  Simulation has been stopped
+acom -work booth_multiplication -2002  $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -advdataflow  shift_test shift_test_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:38, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+# onerror { resume }
+transcript off
+# 6 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:38, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+run 50ns
+# KERNEL: stopped at time: 150 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:38, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+run 50ns
+# KERNEL: stopped at time: 150 ns
+run @200ns
+# KERNEL: stopped at time: 200 ns
+run 50ns
+# KERNEL: stopped at time: 250 ns
+run 50ns
+# KERNEL: stopped at time: 300 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:39, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+#  Simulation has been stopped
+acom -work booth_multiplication -2002  $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim -advdataflow  shift_test shift_test_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:39, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# EXECUTION:: ERROR  : Load doesn't work
+# EXECUTION:: Time: 50 ns,  Iteration: 1,  TOP instance,  Process: line__44.
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+# onerror { resume }
+transcript off
+# 6 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:40, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# EXECUTION:: ERROR  : Load doesn't work
+# EXECUTION:: Time: 50 ns,  Iteration: 1,  TOP instance,  Process: line__44.
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+run 50ns
+# KERNEL: stopped at time: 150 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:42, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.4 [s]
+run 50ns
+# EXECUTION:: ERROR  : Load doesn't work
+# EXECUTION:: Time: 50 ns,  Iteration: 1,  TOP instance,  Process: line__44.
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=302 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:42, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=303 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:43, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 50ns
+# KERNEL: stopped at time: 50 ns
+run 50ns
+# KERNEL: stopped at time: 100 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=303 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:43, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.3 [s]
+run
+# KERNEL: stopped at time: 10 us
+# Evaluation Version : 10us simulation time has been reached.  Contact Aldec for ordering information - sales@aldec.com
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=303 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:44, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Error: COMP96_0292: shift_test.vhd : (67, 5): Exit statement must be in a loop statement.
+# Compile failure 1 Errors 2 Warnings  Analysis time :  0.3 [s]
+run
+# KERNEL: stopped at time: 10 us
+# Evaluation Version : 10us simulation time has been reached.  Contact Aldec for ordering information - sales@aldec.com
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=303 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:45, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run 500ns
+# KERNEL: stopped at time: 500 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=303 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:46, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run
+# KERNEL: stopped at time: 10 us
+# Evaluation Version : 10us simulation time has been reached.  Contact Aldec for ordering information - sales@aldec.com
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1596 kB (elbread=1023 elab2=303 kernel=269 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:46, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run
+# KERNEL: stopped at time: 10 us
+# Evaluation Version : 10us simulation time has been reached.  Contact Aldec for ordering information - sales@aldec.com
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# Error: COMP96_0078: shift.vhd : (24, 7): Unknown identifier "shif".
+# Error: COMP96_0133: shift.vhd : (24, 7): Cannot find object declaration.
+# Error: COMP96_0104: shift.vhd : (24, 7): Undefined type of expression.
+# Error: COMP96_0098: shift.vhd : (24, 7): Boolean type expected.
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Error: ELBWRITE_0028: shift_test.vhd : (45, 0): Signal "p_out" has two sources, but is not resolved signal (at line 45: p_out & at line 71: p_out).
+# Compile failure 5 Errors 2 Warnings  Analysis time :  0.3 [s]
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# Error: COMP96_0078: shift.vhd : (24, 7): Unknown identifier "shif".
+# Error: COMP96_0133: shift.vhd : (24, 7): Cannot find object declaration.
+# Error: COMP96_0104: shift.vhd : (24, 7): Undefined type of expression.
+# Error: COMP96_0098: shift.vhd : (24, 7): Boolean type expected.
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile failure 4 Errors 2 Warnings  Analysis time :  0.3 [s]
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Configuration "cfg_test"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift.vhd
+# Compile Entity "shift_register"
+# Compile Architecture "schift_register_arch" of Entity "shift_register"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\shift_test.vhd
+# Compile Entity "clk_gen"
+# Compile Architecture "behave_clk_gen" of Entity "clk_gen"
+# Compile Entity "shift_test"
+# Compile Architecture "shift_test_arch" of Entity "shift_test"
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.4 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1599 kB (elbread=1023 elab2=305 kernel=270 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:53, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run
+# KERNEL: stopped at time: 10 us
+# Evaluation Version : 10us simulation time has been reached.  Contact Aldec for ordering information - sales@aldec.com
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 1599 kB (elbread=1023 elab2=305 kernel=270 sdf=0)
+# KERNEL: ASDB file was created in location c:\Users\Cosmin\Projects\booth\booth_multiplication\src\wave.asdb
+#  03:54, 29 decembrie 2008
+#  Simulation has been initialized
+#  Selected Top-Level: shift_test (shift_test_arch)
+run
+# KERNEL: stopped at time: 10 us
+# Evaluation Version : 10us simulation time has been reached.  Contact Aldec for ordering information - sales@aldec.com
+acom -work booth_multiplication -2002  $DSN/src/porti.vhd $DSN/src/circuit_paritate.vhd $DSN/src/circuit_paritate_secvential.vhd $DSN/src/test.vhd $DSN/src/shift.vhd $DSN/src/shift_test.vhd
+# Compile...
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\porti.vhd
+# Compile Entity "poarta_xor"
+# Compile Architecture "behave" of Entity "poarta_xor"
+# Compile Entity "inversor"
+# Compile Architecture "behave" of Entity "inversor"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate.vhd
+# Compile Entity "circ_paritate"
+# Compile Architecture "struct" of Entity "circ_paritate"
+# Warning: ELAB1_0026: circuit_paritate.vhd : (21, 0): There is no default binding for component "xor_gate".(No entity named "xor_gate" was found).
+# Warning: ELAB1_0026: circuit_paritate.vhd : (24, 0): There is no default binding for component "inv_gate".(No entity named "inv_gate" was found).
+# Compile Configuration "cfg_circ_paritate"
+# Compile Architecture "comport_concurent1" of Entity "circ_paritate"
+# Compile Architecture "comport_concurent2" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\circuit_paritate_secvential.vhd
+# Compile Architecture "comport_secvential" of Entity "circ_paritate"
+# File: c:\Users\Cosmin\Projects\booth\booth_multiplication\src\test.vhd
+# Compile Entity "test"
+# Compile Architecture "test" of Entity "test"
+# Compile Config
