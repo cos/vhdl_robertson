@@ -1,0 +1,21 @@
+5600
+~E 1 "./src/shift_test.vhd" 1 clk_gen
+~A 1 "./src/shift_test.vhd" 6 behave_clk_gen
+~C 1 "./src/test.vhd" 31 cfg_test
+~C 1 "./src/circuit_paritate.vhd" 27 cfg_circ_paritate
+~E 1 "./src/circuit_paritate.vhd" 1 circ_paritate
+~A 1 "./src/circuit_paritate.vhd" 6 struct
+~A 1 "./src/circuit_paritate.vhd" 46 comport_concurent2
+~A 1 "./src/circuit_paritate.vhd" 37 comport_concurent1
+~A 1 "./src/circuit_paritate_secvential.vhd" 8 comport_secvential
+~E 1 "./src/shift.vhd" 1 shift_register
+~A 1 "./src/shift.vhd" 9 schift_register_arch
+~E 1 "./src/porti.vhd" 15 inversor
+~A 1 "./src/porti.vhd" 21 behave
+~C 1 "./src/shift_test.vhd" 43 config_shift_test
+~E 1 "./src/porti.vhd" 1 poarta_xor
+~A 1 "./src/porti.vhd" 7 behave
+~E 1 "./src/shift_test.vhd" 1 shift_test
+~A 1 "./src/shift_test.vhd" 20 shift_test_arch
+~E 1 "./src/test.vhd" 9 test
+~A 1 "./src/test.vhd" 12 test

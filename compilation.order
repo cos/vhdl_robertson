@@ -1,0 +1,6 @@
+.\src\porti.vhd
+.\src\circuit_paritate.vhd
+.\src\circuit_paritate_secvential.vhd
+.\src\test.vhd
+.\src\shift.vhd
+.\src\shift_test.vhd

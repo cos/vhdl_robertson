@@ -1,0 +1,16 @@
+elbread.dll ver. 1.0.5.375 Mon Dec 29 03:13:52 2008
+
+
+-------------------------------------------------------------
+Entity          | Architecture         | Library           
+-------------------------------------------------------------
+shift_test      | shift_test_arch      | booth_multiplication
+clk_gen         | behave_clk_gen       | booth_multiplication
+shift_register  | schift_register_arch | booth_multiplication
+-------------------------------------------------------------
+
+-------------------
+Package   | Library
+-------------------
+standard  | std
+-------------------

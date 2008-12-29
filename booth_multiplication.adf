@@ -1,0 +1,67 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=booth_multiplication
+
+[Library]
+booth_multiplication=.\booth_multiplication.LIB
+
+[$LibMap$]
+booth_multiplication=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=
+PCBINTERFACE_STATUS=ERRORS
+CDebugWatchList=
+
+[IMPLEMENTATION]
+UCF=
+
+[file_out:/test2.bde]
+/..\compile\test2.vhd=-1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=poarta_xor|behave|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/porti.vhd=-1
+/circuit_paritate.vhd=-1
+/circuit_paritate_secvential.vhd=-1
+/test.vhd=-1
+/shift.vhd=-1
+/shift_test.vhd=-1
+/wave.asdb=-1
+/signals.do=-1
+/cerinte.txt=-1
+
+[Files.Data]
+.\src\porti.vhd=VHDL Source Code
+.\src\circuit_paritate.vhd=VHDL Source Code
+.\src\circuit_paritate_secvential.vhd=VHDL Source Code
+.\src\test.vhd=VHDL Source Code
+.\src\shift.vhd=VHDL Source Code
+.\src\shift_test.vhd=VHDL Source Code
+.\src\wave.asdb=Accelerated Waveform File
+.\src\signals.do=Macro
+.\src\cerinte.txt=Text File
+

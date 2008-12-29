@@ -1,0 +1,130 @@
+Sa se descrie in VHDL unul din circuitele invatate la materiile studiate 
+pina acum, de exemplu: circuite de inmultire de tip Robertson sau Booth, 
+sau circuit de impartire cu sau fara refacerea restului.
+
+Proiectul va trebui sa contina atit descrieri comportamentale secventiale,
+cit si descrieri structurale in VHDL. De exemplu, se vor descrie
+comportamental secvential circuitele care realizeaza algoritmul de
+inmultire sau impartire (registre de deplasare, ALU, automatul secvential
+care reprezinta unitatea de control), iar intregul proiect va presupune
+conectarea tuturor acestor componente intr-o descriere structurala.
+
+Se recomanda testarea functionarii tuturor elementelor componente inainte 
+de inter-conectarea lor. 
+
+
+NU se accepta circuite care nu pun in evidenta ambele aspecte de modelare 
+in VHDL, adica atit modelarea comportamentala secventiala, cit si cea 
+structurala. De exemplu, circuitele de inmultire sau impartire intr-un 
+tact (matriceale) nu contin intr-o masura suficienta aspectul de modelare 
+comportamentala secventiala.
+
+Proiectul se va preda sub forma urmatoarelor teme de laborator, care vor 
+fi predate individual. O tema nepredata inseamna nota 4 (patru), iar o 
+tema copiata inseamna nota 0 (ZERO). 
+
+
+
+Predarea cu intirziere a temei sau realizarea ei incompleta se vor 
+depuncta. Pentru fiecare saptamina de intirziere se scad 0.5 puncte.
+
+
+Tema 1.
+
+Sa se descrie comportamental secvential un registru de deplasare (la 
+stinga sau la dreapta, in functie de necesitatile proiectului).
+
+Entitatea circuitului este:
+
+ENTITY registru IS
+	GENERIC (n: NATURAL :=4);
+	PORT( intrare_paralela: IN BIT_VECTOR(n-1 DOWNTO 0);
+	      iesire_paralela: OUT BIT_VECTOR(n-1 DOWNTO 0);
+	      reset, clock, shift, LOAD : IN BIT;
+	      intrare_seriala: IN BIT);
+END registru;
+
+Circuitul poate functiona pe frontul sau pe nivelul semnalului de clock. 
+
+Sa se testeze functionarea circuitului.
+
+Termen de predare: saptamina 10 - 14 noiembrie, in cadrul orelor de
+laborator.
+
+Tema 2
+
+Sa se descrie comportamental secvential o unitate aritmetica ALU care 
+realizeaza adunarea si scaderea unor operanzi care sint vectori binari de 
+lungime n (vectori de n biti).
+
+Se pot utiliza functiile de conversie dintre vectori de intregi si biti, 
+functii date in VHDL Cookbook. 
+
+De asemenea se poate realiza ALU si prin modelarea comportamentala
+secventiala a unui sumator cu propagarea transportului pe n biti, iar
+partea de scadere sa fie realizata cu ajutorul unor circuite suplimentare
+(un circuit care obtine negatul unui operand prin inversarea sa bit cu bit
+si adunarea unui '1' pe pozitia cea mai putin semnificativa - practic prin
+activarea transportului initial la ALU).
+
+Termen: saptamina 17-21 noiembrie, in cadrul orelor de laborator
+
+Tema 3: 
+
+Sa se descrie comportamental secvential unitatea de comanda a 
+dospozitivului aritmetic realizat. Unitatea de control este realizata sub 
+forma unui automat secvential.
+
+Se pleaca de la pseudocodul ce descrie algoritmul implementat si se 
+realizeaza intii identificarea starilor circuitului. (Observatie: pentru a 
+evita eventualele probleme ce ar putea aparea ulterior se accepta ca 
+numarul de stari sa nu fie neaparat cel minim, adica daca se considera de 
+catre studenti ca este mai "sigur" sa se adauge inca o stare, de exemplu 
+pentru a efectua un test, se accepta aceasta solutie, chiar daca testul 
+respectiv s-ar fi putut efectua intr-una din starile deja existente). 
+
+Automatul secvential implementeaza trecerea dintr-o stare in alta si de 
+asemenea stabileste ce semnale (de exemplu de incarcare sau deplasare ale 
+unor registre) se activeaza in fiecare stare. 
+
+Pentru testarea functionarii unitatii de comanda si control cea mai 
+eficienta modalitate ar fi ca automatul sa efectueze asupra unor variabile 
+sau semnale interne operatiile de deplasare, adunare, etc, astfel incit 
+practic unitatea de comanda si control sa efectueze impartirea/inmultirea 
+secventiala conform algoritmului implementat (ca si cind algoritmul de 
+inmultire sau impartire ar fi implementat secvential in VHDL, ca si in 
+orice alt limbaj de programare de nivel inalt).
+
+Termen: saptamina 2-5 decembrie, in cadrul orelor de laborator
+
+Tema 4: 
+
+Sa se realizeze descrierea structurala a intregului circuit prin legarea 
+elementelor descrise anterior si sa se testeze functionarea circuitului.
+
+Testarea functionarii se va realiza prin verificarea corectitudinii 
+operatiilor aritmetice implementate (inmultire sau impartire).
+
+Recomandare: in aceasta faza a proiectului cele mai frecvente cauze care 
+pot duce la o functionare incorecta sint legate de nesincronizarile care 
+pot aparea intre diversele operatii efectuate de circuitele ce compun 
+proiectul. O recomandare ar fi ca daca registrele si restul logicii 
+secventiale din proiect functioneaza pe un front al semnalului de tact (de 
+exemplu pe frontul crescator), atunci unitatea de comanda si control sa 
+lucreze pe celalalt front al semnalului de tact (in acest caz pe frontul 
+descrescator). In acest mod va fi mai usor de realizat o corecta 
+sincronizare intre unitatea de control si restul circuitelor. 
+
+Recomandare 2: pentru a facilita depanarea se recomanda ca circuitele sa 
+aiba intirzieri (adica intirzierile pe circuite sa nu fie 0ns), dar 
+intirzierile sa nu fie de acelasi ordin de marime cu durata semnalului de 
+tact sau cu perioada cit semnalul de tact e pe '1' sau pe '0', astfel 
+incit un numar de citeva intrizieri cumulate sa nu depaseasca durata 
+semnalului de tact (respectiv perioada cit tactul e pe '1' sau pe '0'). De 
+exemplu, la un tact cu o perioada de 100ns, din care 50ns pe '1', 
+intirzierile circuitelor pot fi de ordinul 1ns - 5ns. Daca circuitele nu 
+au intirzieri atunci din diagrama de semnale nu va rezulta in mod evident 
+ordinea in care diverse semnale comuta si nesincronizarile nu vor fi usor 
+de observat !
+
+Termen: saptamina 15-19 decembrie, in cadrul orelor de laborator
